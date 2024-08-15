@@ -1,2 +1,2 @@
 export const baseUrl = 'http://localhost:8000'
-export const host = 'https://mern-task-app-7xot.onrender.com'
+export const host = 'https://chat-app-server-lac.vercel.app'
