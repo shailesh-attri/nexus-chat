@@ -18,7 +18,7 @@ export const getAllUsersRoute = `${host}/${UserAPI}/getAllUsers`;
 export const findUserRoute = `${host}/${UserAPI}/findUser`;
 export const getSelectedProfile = `${host}/${UserAPI}/getSelectedProfile`;
 export const unFollowUserRoute = `${host}/${UserAPI}/:id/unFollow`;
-export const changeAvatarRoute = `${host}/${UserAPI}/`
+export const changeAvatarRoute = `${host}/${UserAPI}`
 export const deleteAvatarRoute = `${host}/${UserAPI}/deleteAvatar`
 
 
@@ -30,8 +30,8 @@ export const fileUploadRoute = `${host}/${MessageAPI}/uploadImage`
 // Chat routes
 const ChatAPI = 'api/user/chat'
 export const accessChatRoute = `${host}/${ChatAPI}/accessChat`
-export const fetchChatRoute = `${host}/${ChatAPI}/`
+export const fetchChatRoute = `${host}/${ChatAPI}`
 export const blockedChatRoute = `${host}/${ChatAPI}/blockedUsers`
 export const UnBlockedUsersChatRoute = `${host}/${ChatAPI}/UnBlockedUsers`
-export const AllBlockedRoute = `${host}/${ChatAPI}/AllBlocked/`
+export const AllBlockedRoute = `${host}/${ChatAPI}/AllBlocked`
 export const groupChatRoutes = `${host}/${ChatAPI}/groupChat`
