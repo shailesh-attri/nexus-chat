@@ -1,4 +1,4 @@
-import { baseUrl as host } from "../baseUrl";
+import { host } from "../baseUrl";
 
 // useAuthRoutes
 const AuthAPI = "api/user/auth";
