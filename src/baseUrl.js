@@ -1,2 +1,2 @@
-export const baseUrl = 'http://localhost:8000'
-export const host = 'https://mern-chat-app-gu3e.onrender.com'
+export const baseUrl = 'http://localhost:8001'
+export const host = 'https://backend-chat-app.duckdns.org'
